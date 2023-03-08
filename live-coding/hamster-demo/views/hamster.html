@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamsters wars</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    {{>partial/main-nav}}
+    <h2>Hamster wars</h2>
+
+    <!-- beginning of mustache-section -->
+    <!-- a section is an object iterator, or a list for-each-->
+    <div class="hamster-container">
+      {{#hamsters}}
+      <!-- default är method "GET" -->
+      <form method="POST" action="/vote">
+        <input type="hidden" value="{{id}}" name="hamsterId" />
+        <!-- Dolt fält som skickar med id-värdet -->
+        <figure>
+          <img src="image/{{imgRef}}" height="300" width="300" />
+          <figcaption>{{name}}</figcaption>
+        </figure>
+        <button type="submit">Vote</button>
+      </form>
+      {{/hamsters}}
+      <!-- end of mustache-section -->
+    </div>
+  </body>
+</html>
