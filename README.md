@@ -24,7 +24,7 @@ Efter videon ovan så bör ni kunna utöka hamsterwars med en enklare MongoDB so
 *Det är ok om man inte har hunnit skapa en komplett lösning tills på fredag, men ni bör ha hunnit ansluta till er databas och kunnat spara in någon data där*
 
 ### Level up
-Kan du skapa en administratör vy där användaren kan lägga in nya hamstrar i databasen? 
+Kan du skapa en administratörvy där användaren kan lägga in nya hamstrar i databasen? 
 
 ### Level up 2
 Kan du låta administratören få en vy över användare och deras röstningar?
