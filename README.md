@@ -8,6 +8,7 @@
 ## Material
 Du förväntas inte kunna använda MongoDB i terminalen, men rekommenderar att ni ser igenom från början då han diskuterar DB mer allmänt i början. Javascript börjar i asvnitt #15.
 - [MongoDB - Complete guide (indexering är utanför kursens innehåll så detta kan ni skippa)](https://www.youtube.com/watch?v=ExcRbA7fy_A&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA)
+- [MongoDB User guide [CRUD operations] med Node.js](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/)
 
 Observera, The Net Ninja användare module.export, detta är detsamma som att i en module använda export nyckelordet.
 ```js
