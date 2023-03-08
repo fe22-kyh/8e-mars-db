@@ -16,7 +16,7 @@ module.exports = { foo: () => { ... } }
 export function foo() { ... }
 ``` 
 
-## Övning (Gäller även för fredagen)
+## Övning (Vi sysslar med dessa även på fredag, går igenom kort demo på eftermiddagen)
 Efter videon ovan så bör ni kunna utöka hamsterwars med en MongoDB som kan spara hamstrarna och deras röster i en databas. För att undvika att samma användare röstar flera gånger så bör även applikationen kräva att användaren loggar in med ett konto. 
 
 ### Level up
