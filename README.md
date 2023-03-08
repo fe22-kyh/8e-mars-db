@@ -21,7 +21,7 @@ Observera även att The Net Ninja använder en lokal databas, vilket är ok, men
 ## Övning (Vi sysslar med dessa även på fredag, går igenom kort demo på eftermiddagen)
 Efter videon ovan så bör ni kunna utöka hamsterwars med en enklare MongoDB som kan spara hamstrarna och deras röster i en databas. För att undvika att samma användare röstar flera gånger så bör även applikationen kräva att användaren loggar in med ett konto. 
 
-**Det är ok om man inte har hunnit skapa en komplett lösning, men ni bör ha hunnit ansluta till er databas och kunnat spara in någon data där**
+*Det är ok om man inte har hunnit skapa en komplett lösning tills på fredag, men ni bör ha hunnit ansluta till er databas och kunnat spara in någon data där*
 
 ### Level up
 Kan du skapa en administratör vy där användaren kan lägga in nya hamstrar i databasen? 
